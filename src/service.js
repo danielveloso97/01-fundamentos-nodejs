@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
       email: 'daniel@gmail.com'
     })
     return res.writeHead(201).
-    end('Criação de Usuário')
+    end('Criação de Usuário test')
   }
 
   return res.writeHead(404).end('A rota não existe')
